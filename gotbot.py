@@ -3,8 +3,6 @@ import re
 import tweepy
 import secrets
 
-
-
 def cleantitle(title):
 	return re.findall("^\[.*\](.*)", title)[0]
 
