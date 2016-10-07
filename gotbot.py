@@ -2,12 +2,6 @@ import praw
 import re
 import tweepy
 
-
-consumer_key = "af3v5r8FhE2rGXNEt1Q3vEGGi"
-consumer_secret = "BQWE3Hh30VX1LptNn9k6z0YbCu0bYCTx6xpvn6rxcuQQdDd1xk"
-access_token = "2492242001-AhQ3EoEvgzRukljOZtfKZDckyhrL7nkXhxxWEti"
-access_token_secret = "UVYp4x4FIxJMNRp8RlBCvjldKwmBz48mSaI40vQT5IFwq"
-
 def cleantitle(title):
 	return re.findall("^\[.*\](.*)", title)[0]
 
